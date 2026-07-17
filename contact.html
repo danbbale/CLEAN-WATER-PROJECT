@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Clean Water Project</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="container-fluid">
+      <div
+        class="d-flex flex-wrap align-items-center justify-content-between py-3"
+      >
+        <img src="images/logo.jpg" alt="Project Logo" class="logo" />
+        <h1 class="text-center flex-grow-1">CONTACT US</h1>
+        <nav class="d-flex gap-3">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container my-5">
+      <section class="contact-intro text-center mb-5">
+        <h2 class="mb-3">We would Love to hear from you!</h2>
+        <p class="lead mb-4">
+          Get in touch with us to learn more about our projects, donate to the
+          cause, and support our mission to provide clean water in rural
+          communities.
+        </p>
+
+        <div class="d-flex justify-content-center gap-4 flex-wrap">
+          <a href="https://facebook.com" class="social-cover">
+            <img
+              src="images/facebook.png"
+              alt="Facebook Cover"
+              class="img-fluid"
+            />
+            <div class="social-overlay">
+              <span>Facebook</span>
+            </div>
+          </a>
+          <a href="https://instagram.com" class="social-cover">
+            <img
+              src="images/instagram.png"
+              alt="Instagram Cover"
+              class="img-fluid"
+            />
+            <div class="social-overlay">
+              <span>Instagram</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="team-leads text-center my-5">
+        <h2>Meet Our Team Leaders</h2>
+        <div class="row justify-content-center g-4 mt-4">
+          <div class="col-md-4">
+            <div class="team-member">
+              <img
+                src="images/sarah.jpg"
+                alt="Nakato Sarah"
+                class="member-image mb-3 img-fluid rounded"
+              />
+              <h3>Nakato Sarah</h3>
+              <p class="member-role">Technical Lead</p>
+              <p>Email: nsarah2000@cleanwaterproject.org</p>
+              <p>Phone: +256 700 123 456</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="team-member">
+              <img
+                src="images/dan.jpg"
+                alt="Bbale Daniel"
+                class="member-image mb-3 img-fluid rounded"
+              />
+              <h3>Bbale Daniel</h3>
+              <p class="member-role">Project Manager</p>
+              <p>Email: danbbale12@cleanwaterproject.org</p>
+              <p>Phone: +256 701 234 567</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="team-member">
+              <img
+                src="images/okello.jpg"
+                alt="Micheal Okello"
+                class="member-image mb-3 img-fluid rounded"
+              />
+              <h3>Okello Micheal</h3>
+              <p class="member-role">Community Outreach Lead</p>
+              <p>Email: Okello.m@cleanwaterproject.org</p>
+              <p>Phone: +256 702 345 678</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-form-section my-5">
+        <h2 class="text-center mb-4">
+          Want To Send A Message? Please Fill This Form
+        </h2>
+        <form class="contact-form bg-white p-4 rounded shadow-sm">
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="firstName" class="form-label">First Name:</label>
+              <input
+                type="text"
+                id="firstName"
+                class="form-control"
+                placeholder="First Name"
+                required
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="lastname" class="form-label">Last Name:</label>
+              <input
+                type="text"
+                id="lastname"
+                class="form-control"
+                placeholder="Last Name"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input
+              type="email"
+              id="email"
+              class="form-control"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="phoneNumber" class="form-label">Phone Number:</label>
+            <input
+              type="tel"
+              id="phoneNumber"
+              class="form-control"
+              placeholder="Phone Number"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label d-block">Gender:</label>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="male"
+                name="gender"
+                value="Male"
+              />
+              <label class="form-check-label" for="male">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="female"
+                name="gender"
+                value="Female"
+              />
+              <label class="form-check-label" for="female">Female</label>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              class="form-control"
+              placeholder="Your message here..."
+              required
+            ></textarea>
+          </div>
+
+          <div class="text-center">
+            <input type="submit" value="Send Message" class="submit-btn btn" />
+          </div>
+        </form>
+      </section>
+
+      <section class="contact-info-section text-center my-5">
+        <h2>Visit or Contact Us</h2>
+        <div class="contact-details mx-auto mt-3">
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:2400704324@mubs.ac.ug">2400704324@mubs.ac.ug</a>
+          </p>
+          <p>
+            <strong>Phone:</strong>
+            <a href="tel:+256767208415">+256 767 208 415</a>
+          </p>
+          <p>
+            <strong>Phone:</strong>
+            <a href="tel:+256759399159">+256 759 399 159</a>
+          </p>
+          <p><strong>Location:</strong> Kampala, Uganda</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-4 mt-5">
+      <div class="footer-content">
+        <div class="social-media">
+          <h3>REACH OUT ON OUR SOCIAL MEDIA PLATFORMS:</h3>
+          <a href="https://facebook.com">Facebook</a>
+          <a href="https://instagram.com">Instagram</a>
+          <a href="https://x.com">Twitter</a>
+        </div>
+      </div>
+      <p class="copyright mb-0">&copy; 2025 BBALE DANIEL ICWD</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
